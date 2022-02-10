@@ -1,0 +1,25 @@
+{
+  "name": "jason-fairchild-aumni-qa-challenge",
+  "version": "1.0.0",
+  "description": "Cypress challenge against aumni.fund",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy": "cypress open",
+    "ct:run": "cypress run-ct",
+    "ct": "cypress open-ct"
+  },
+  "repository": "git+https://github.com/JasonFairchild/qaa-coding-challenge.git",
+  "author": "Jason Fairchild",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonFairchild/qaa-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/JasonFairchild/qaa-coding-challenge#readme",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.4.1",
+    "typescript": "^4.5.5"
+  }
+}
